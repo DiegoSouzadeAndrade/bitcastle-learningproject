@@ -9,8 +9,8 @@ const SquareScreen = () => {
     return (
         <View>
             <ColorCounter color="Red" />
-            <ColorCounter color="Green" />
-            <ColorCounter color="Blue"/>
+            <ColorCounter color="Blue" />
+            <ColorCounter color="Green"/>
         </View>
     );
 };
