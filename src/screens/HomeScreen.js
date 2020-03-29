@@ -14,15 +14,23 @@ const HomeScreen = ({navigation}) => {
       <Button 
         onPress={()=>navigation.navigate('Images')}
         title="Go to Images Demo"></Button>
-        <Button 
+      <Button 
         onPress={()=>navigation.navigate('Counter')}
-        title="Go to Counter Demo"></Button>
-        <Button 
+        title="Go to Counter Demo">
+      </Button>
+      <Button 
         onPress={()=>navigation.navigate('Colors')}
-        title="Go to Colors Demo"></Button>
-        <Button 
+        title="Go to Colors Demo">
+      </Button>
+      <Button 
         onPress={()=>navigation.navigate('Square')}
-        title="Go to Squares Demo"></Button>
+        title="Go to Squares Demo">
+      </Button>
+      <Button 
+        onPress={()=>navigation.navigate('Texts')}
+        title="Go to Texts Demo">
+      </Button>
+        
     </View>
   );
 };
